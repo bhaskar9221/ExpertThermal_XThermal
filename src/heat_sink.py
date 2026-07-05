@@ -32,7 +32,7 @@ def calculate_heat_sink(TDP, V_air, k_tim):
     #Nusselt Number Calculation (Laminar & Turbulent cases)
     if Re < 2300:  
         Nu = 1.86 * ((Re * Pr_air * (2 * s_f) / L) ** (1/3))
-    else:  # Turbulent flow
+    else:  
         Nu = 0.023 * (Re**0.8) * (Pr_air**0.3)
 
     #Convective Heat Transfer Coefficient
@@ -69,6 +69,6 @@ def calculate_heat_sink(TDP, V_air, k_tim):
 
 
 
-#Function Testing 
-R, T = calculate_heat_sink(TDP=150, V_air=1, k_tim=4)
-print(f"R_total = {R:.6f} °C/W, T_junction = {T:.4f} °C")
+#Function Testing, un comment the below two line for testing the function. 
+#R, T = calculate_heat_sink(TDP=150, V_air=1, k_tim=4)
+#print(f"R_total = {R:.6f} °C/W, T_junction = {T:.4f} °C")
