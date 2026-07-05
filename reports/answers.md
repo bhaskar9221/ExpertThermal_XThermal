@@ -32,7 +32,7 @@ I have found my strength lies in putting AI into production software as well as 
 
 # Task 3: AI Use Case Evaluation
 
-(1) Surrogate ML Models for Faster Prediction:
+# (1) Surrogate ML Models for Faster Prediction:
 
 What it solves: Full physics simulations or even just the script behind this heat sink model from this assessment are too slow to be run on the fly for rapid design exploration, or to provide real-time feedback during design iterations. A trained surrogate model can provide a prediction in milliseconds, rather than having to run the underlying calculation/simulation every time.
 
@@ -43,7 +43,7 @@ ML, GenAI, workflow AI, or combination: Mostly ML(regression) random forest, gra
 How to validate it works correctly: By holding out a test set and evaluating the model’s performance on it, using metrics such as MAE, RMSE, or R2 compared to the physics model, as was done in task 1. Additionally, a few independent test simulations not used in training could be performed, and the model’s performance on them evaluated. In production, if the model’s confidence estimates or prediction error start to increase significantly, it might be necessary to retrain it on new data if, for example, the design space starts including operating conditions not present in the training data.
 
 
-(2) Knowledge retrieval from engineering documents (RAG)
+# (2) Knowledge retrieval from engineering documents (RAG)
 Problem to Solve: Engineering teams often have extensive corpuses of reference documents (datasheets, previous design documentation, internal standards, past assessment reports, etc.) which are difficult to query effectively with standard search techniques due to inconsistent phrasing of concepts across different documents. An engineer may know that some information exists “somewhere in the documents,” but not be able to find it quickly.
 
 Data Needs: The relevant corpuse of internal documents (PDFs, reports, datasheets, calculations, etc.) that need to be searchable, in a form amenable to passage retrieval (vector database or similar), plus document metadata such as version control.
@@ -52,7 +52,7 @@ ML, GenAI, Workflow AI, or Combo: Combination. The question-answering would use 
 Validation: Requires a set of test questions with known answers and corresponding documents. For each test question, both retrieval effectiveness (did the right document come up?) and answer faithfulness (does the answer actually use the retrieved documents, not make up information?) should be validated. Because hallucination is a known weakness of GenAI models, any answer produced by this system should ideally be traceable to specific cited documents that a human could review.
 
 
-(3) AI-Assisted Input Validation & Missing Parameter Detection
+# (3) AI-Assisted Input Validation & Missing Parameter Detection
 What problem it solves: Engineering calculation tools often fail silently or give nonsensical results when a user inputs an invalid value, uses inconsistent units, or forgets to fill in required parameters (e.g. entering TIM conductivity in the wrong units, or leaving an air velocity field blank and having a script fill it with zeroes). Being able to catch that before running a computation saves wasted simulation time and misleading design reviews.
 
 What data would be required: Historic records of valid input ranges (for example, what TDP, velocity, or conductivity values are plausible for the hardware under consideration), and if available, examples of invalid inputs and their corrections, to train pattern recognition models.
