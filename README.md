@@ -150,7 +150,7 @@ Both the correlation analysis and Random Forest feature importances agree on the
 - **TIM Thermal Conductivity** has a secondary but real effect on Total Thermal Resistance (~8–22%), and negligible direct effect on Junction Temperature.
 
 A full discussion, including assumptions and limitations, is provided in `reports/assessment_report.md`.
-
+Also my answers for Task 2,3 and 4 is provided in `reports/answers.md`.
 ---
 
 ## Notes
