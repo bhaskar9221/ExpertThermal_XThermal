@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../src')
 from heat_sink import calculate_heat_sink
 import itertools
 import numpy as np
