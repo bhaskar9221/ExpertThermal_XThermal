@@ -64,3 +64,24 @@ How to validate it works correctly: Have a set of known bad inputs that should r
 
 
 # Task 4: 
+
+## Why do you want to join Expert Thermal / XThermal?
+I am an Aspiring ML engineer who's spent real time on physics-adjacent and signal-heavy problems (audio analytics pipelines, CNN models) rather than pure software or webbased ML, this role is a combination of thermal engineering + AI surrogate modeling and definitely a lot more than that, it sits right at that intersection of Physics and AI(including maths and computer science). I find it to be a really exiciting and wholesome opportunity. Not only I will be tested at each and every step while working at Expert Therman / XThermal. But I will need to evolve or transform myself just like energy in physics. I will need to transform from one form to the other. Or speaking in  other relatable manner keep on getting excited from one state to the other state just like atoms and energy in the universe....
+
+## What are you most interested in building in AI/ML?
+Just like how Physics is the study and observation of nature, and based off on it humanity has progressed so far and given birth to so many kinds of Engineering Marvels. I too man very interested in the aspect of Research and Development in the field of AI/ML. I may be an aspiring Engineer and the role is that of one too. But have to heart and soul of an Scientist just like a Physics Expert. Learning and interpreating things from ground up. Understand a problem, it's concept and engineer it solution from first principle thinking. In those process finding out and improving newer things or even on the granular level is what excites me about this role.
+
+## Are you more interested in ML models, GenAI workflows, physics-aware AI, or product AI integration?
+I am more interested in the ML Models, especially it requireing physics-aware AI and then on further integrating it into GenAI Workflows or Product AI Integration as per the needs and requirements.
+
+## How do you handle ambiguous problems where requirements are not fully defined?
+I would handle ambiguous problems by firstly understanding the nature and core of the problem. Especially since in AI/ML problems are often based on certain domains. For example one could be building a trading bot, instead of brute forcing their way into making a model. It's far more practical and sensible to first get to know little bit about trading, stock-share market and then do the problem solving and modelling. So, just like that I would find ways and do Research and Development in case of amiguous problems with no proper defined requirements 
+
+## Are you comfortable working in a fast-moving startup environment?
+Yes I am absolutley  comfortable working in a fast paced startup enviroment. Just like how I am a fresher and I am yet to learn and grow a lot, I am commited and totally comfortable growing and working in such fast paced startup enviroment.
+
+## How do you think you can grow within our team?
+I would grow withing our team, as I am now incomplete and I have a long way to go in my career. I know that these kinds of enviroments require a person to thrive, face challenges and hurldes rather than being in the same loop or being static. That is how I intend to grow as well as grow withing the team while bringing my best to the table from problem to problem and time to time.
+
+## This role calls for ownership, commitment, and initiative. How would you bring new ideas,create solutions, and take on greater responsibility over time?
+I believe in taking ownership, commitment, and initiative especially before being explicitly instructed. As in order to grow and evolve I have to break the barrier and aim for more than I have till now. I would give me best in doing Research but even more being grounded and aware of the problem given first than directly getting into work. Also exploring all possble scenarios and proving myself and my capabilites and expanding my horizion. I understand this role at the startup requires one to wear various Hats than just traditional roles at MNCs. One has to be like a unit or a army.
